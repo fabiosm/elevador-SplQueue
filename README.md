@@ -11,18 +11,13 @@ Este projeto simula o funcionamento de um elevador utilizando PHP e o conceito d
 
 ⚙️ Funcionalidades
     Chamada de andares (adicionados à fila).
-
     Movimentação do elevador de acordo com a ordem das chamadas (FIFO).
-
     Persistência da fila e do andar atual usando sessão ($_SESSION).
-
     Validações com InvalidArgumentException.
 
 🔒 Validações
     A capacidade do elevador deve ser maior que zero. (Definida no construtor)
-
     O número de andares deve ser maior que zero. (Definido no construtor)
-
     Ao chamar o elevador:
         O andar deve estar entre 0 e o número máximo de andares.
         O andar não pode ser o mesmo onde o elevador já está.
@@ -35,6 +30,5 @@ Interação
 
 Páginas incluídas
     index.php: Interface interativa com formulários para chamar o elevador e mover entre andares.
-
-    teste.php: Script direto para testar funcionalidades do elevador sem interface, útil para simulações ou testes automatizados.
+    teste.php: Script direto para testar funcionalidades do elevador sem interface
 
