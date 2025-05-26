@@ -1,0 +1,3 @@
+# Ignora pastas e arquivos do Composer
+/vendor/
+composer.lock

@@ -1,0 +1,11 @@
+{
+  "name": "seu-usuario/elevador",
+  "description": "Simulador de elevador usando PHP, SplQueue e sessão.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {}
+}
