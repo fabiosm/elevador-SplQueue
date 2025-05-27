@@ -17,6 +17,7 @@ Este projeto simula o funcionamento de um elevador utilizando PHP e o conceito d
     Validações com InvalidArgumentException.
 
 🔒 Validações
+
     A capacidade do elevador deve ser maior que zero. (Definida no construtor)
     O número de andares deve ser maior que zero. (Definido no construtor)
     Ao chamar o elevador:
@@ -25,11 +26,13 @@ Este projeto simula o funcionamento de um elevador utilizando PHP e o conceito d
         O andar não pode estar repetido na fila.
 
 Interação
+
     O usuário pode adicionar quantos andares quiser.
     Cada chamada válida é adicionada à fila de forma persistente.
     Ao clicar em "Mover Elevador", ele se move para o próximo andar da fila, obedecendo a lógica FIFO.
 
 Páginas incluídas
+
     index.php: Interface interativa com formulários para chamar o elevador e mover entre andares.
     teste.php: Script direto para testar funcionalidades do elevador sem interface
 
