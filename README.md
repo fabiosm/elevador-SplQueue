@@ -9,7 +9,8 @@ Este projeto simula o funcionamento de um elevador utilizando PHP e o conceito d
 2. No terminal, execute:
     composer dump-autoload
 
-⚙️ Funcionalidades
+⚙️ Funcionalidades:
+
     Chamada de andares (adicionados à fila).
     Movimentação do elevador de acordo com a ordem das chamadas (FIFO).
     Persistência da fila e do andar atual usando sessão ($_SESSION).
